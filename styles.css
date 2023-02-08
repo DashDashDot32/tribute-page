@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root {
+    --BGCOLOR: rgb(224, 224, 244);
+    --COLOR: #000;
+    --FONT-FAMILY: Alice;
+    --FONT-SIZE: 1.3rem;
+}
+
+
+/* || UTILITY CLASSES */
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+
+/* || MAIN */
+
+html {
+    font-family: var(--FONT-FAMILY);
+    font-size: var(--FONT-SIZE);
+}
+
+main {
+    background-color: var(--BGCOLOR);
+    width: 98%;
+    margin: 15px auto; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+header {
+    padding: 1em;
+}
+
+header > p {
+    margin-top: 1em;
+}
+
+.main__fig {
+    display: block;
+    width: 98%;
+    background-color: aliceblue;
+    padding: 10px;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: .8em auto;
+}
+
+.main__article {
+    margin: 1em auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+    margin: 10px 30% 10px 30%;
+}
+
+.main_fig_quote {
+    padding: 2rem;
+    font-weight: 600;
+}
+
+footer > p {
+    padding-bottom: 1em;
+}
+
+a:any-link {
+    color: rgb(82, 80, 80);
+    text-decoration: none;
+}
